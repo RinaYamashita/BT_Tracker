@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlarmManager;
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
@@ -15,8 +16,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private android.app.NotificationChannel channel;
-    private Object NotificationChannel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             String channelName = "BTTrackerReminderChannel";
             String channelDescription = "Channel for BT Tracker reminder";
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
-            NotificationChannel = new NotificationChannel(channelID, channelName, importance);
+            NotificationChannel channel= new NotificationChannel(channelID, channelName, importance);
             channel.setDescription(channelDescription);
             //Create a notification manager
             NotificationManager notificationManager = getSystemService(NotificationManager.class);
