@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TitleBackground"
-        app:layout_constraintVertical_bias="0.100000024">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/MainButton1"
@@ -58,8 +58,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FF80AB"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#A7FFEB"
@@ -76,8 +77,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FF80AB"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#A7FFEB" />
@@ -95,8 +97,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FF80AB"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#A7FFEB" />
@@ -112,8 +115,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FF80AB"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#A7FFEB" />

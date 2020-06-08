@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
-    
+
 
     public void setReminder(View view) {
         // When user clicks "SET REMINDER" button, a toast message will pop up to let user know that a reminder is set
