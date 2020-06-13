@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8E2DC"
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/TitleBackground"
         android:layout_width="410dp"
         android:layout_height="215dp"
-        android:background="#FF80AB"
+        android:background="#9D8189"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,13 +20,13 @@
         android:id="@+id/MainTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="44dp"
-        android:background="#FF80AB"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="50dp"
+        android:background="#9D8189"
         android:text="@string/bt_traker"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#A7FFEB"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F3E9D2"
         app:layout_constraintBottom_toBottomOf="@+id/TitleBackground"
         app:layout_constraintStart_toEndOf="@+id/Titleimage" />
 
@@ -33,12 +34,13 @@
         android:id="@+id/Titleimage"
         android:layout_width="82dp"
         android:layout_height="61dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="50dp"
+        android:tint="#FFE1A8"
         app:layout_constraintBottom_toBottomOf="@+id/TitleBackground"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@android:drawable/ic_popup_reminder" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -57,13 +59,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FF80AB"
+            android:background="#F4ACB7"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
             android:paddingRight="8dp"
             android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#A7FFEB"
+            android:textColor="#3C6E71"
             android:textColorHighlight="#A7FFEB" />
 
         <View
@@ -76,13 +78,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FF80AB"
+            android:background="#FFCAD4"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
             android:paddingRight="8dp"
             android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#A7FFEB" />
+            android:textColor="#3C6E71" />
 
         <View
             android:id="@+id/view8"
@@ -96,13 +98,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FF80AB"
+            android:background="#FFFFFF"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
             android:paddingRight="8dp"
             android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#A7FFEB" />
+            android:textColor="#3C6E71" />
 
         <View
             android:id="@+id/view9"
@@ -114,13 +116,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FF80AB"
+            android:background="#FFDDD2"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
             android:paddingRight="8dp"
             android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#A7FFEB" />
+            android:textColor="#3C6E71" />
 
     </LinearLayout>
 
