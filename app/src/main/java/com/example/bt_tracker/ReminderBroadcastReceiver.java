@@ -29,7 +29,8 @@ public class ReminderBroadcastReceiver extends BroadcastReceiver {
 
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
-        notificationManager.notify(200, builder.build()); // ID could be any number
+        notificationManager.notify(200, builder.build());
+        // ID could be any number
     }
 }
 

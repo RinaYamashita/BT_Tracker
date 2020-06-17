@@ -11,23 +11,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="ExtraText,WrongManifestParent">
+        <activity android:name=".ConfirmActivity"></activity>
+
         <receiver
             android:name=".ReminderBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
-
+            android:exported="true" />
 
         <activity android:name=".MechanismActivity" />
         <activity android:name=".NormalActivity" />
         <activity android:name=".LogActivity" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
-</manifest>
 
+</manifest>
