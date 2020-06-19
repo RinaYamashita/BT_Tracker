@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/MechanismLink1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="228dp"
+        android:layout_height="86dp"
         android:background="#FFFFFF"
+        android:fontFamily="serif-monospace"
         android:onClick="goToLink1"
         android:text="@string/why_do_we_have_fever"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -19,18 +20,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
 
     <TextView
         android:id="@+id/MechanismTitle"
-        android:layout_width="360dp"
-        android:layout_height="52dp"
+        android:layout_width="318dp"
+        android:layout_height="154dp"
+        android:fontFamily="serif-monospace"
         android:text="@string/useful_links_about_fever"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#9D8189"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.19999999" />
 </androidx.constraintlayout.widget.ConstraintLayout>

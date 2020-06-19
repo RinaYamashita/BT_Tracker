@@ -9,17 +9,17 @@
 
     <TextView
         android:id="@+id/LogTitle"
-        android:layout_width="375dp"
-        android:layout_height="126dp"
+        android:layout_width="329dp"
+        android:layout_height="215dp"
+        android:fontFamily="serif-monospace"
         android:text="@string/please_log_your_temperature_today"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#3C6E71"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19999999" />
+        app:layout_constraintVertical_bias="0.16000003" />
 
     <EditText
         android:id="@+id/LogInputData"
@@ -31,20 +31,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/LogSaveButton"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:onClick="confirmBT"
         android:text="@string/save"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:onClick="confirmBT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
