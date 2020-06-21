@@ -135,6 +135,25 @@
             android:textColor="#3C6E71"
             android:textSize="30sp" />
 
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/MainButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#DEAB90"
+            android:fontFamily="serif-monospace"
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp"
+            android:paddingRight="8dp"
+            android:text="When no fever"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#3C6E71"
+            android:textSize="30sp" />
     </LinearLayout>
 
     <Button

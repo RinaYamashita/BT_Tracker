@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView mainButton4 = findViewById(R.id.MainButton4);
         mainButton4.setOnClickListener(this);
 
+        TextView mainButton5 = findViewById(R.id.MainButton5);
+        mainButton5.setOnClickListener(this);
+
         TextView setReminderButton = findViewById(R.id.setReminderButton);
         setReminderButton.setOnClickListener(this);
     }
@@ -62,6 +65,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent toLink2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
                 startActivity(toLink2);
                 break;
+            case R.id.MainButton5:
+                //If MainButton5 is clicked, do something
+                Intent toLink3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://nmfto.net/netuppoinetuganaidaruigenintaisyo/\n"));
+                startActivity(toLink3);
+                break;
+
         }
     }
 
