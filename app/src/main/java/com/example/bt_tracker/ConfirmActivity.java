@@ -15,11 +15,12 @@ public class ConfirmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm);
         //find the ID of the TextView on the layout
-        accessData = (TextView) findViewById(R.id.showBTData);
+        accessData = (TextView)findViewById(R.id.showBTData);
 
         //Extract the extras from Intent
         Bundle transferredData = getIntent().getExtras();
         //Extract data with the key "BT_data"
+        assert transferredData != null;
         String s = transferredData.getString("BT_data");
         //create the confirmation message
         String txt = "Your input body temperature is" + s;
